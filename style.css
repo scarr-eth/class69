@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(231, 231, 231);
+  
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background-color: rgb(179, 179, 179);
+  border-bottom: 2px solid rgb(60, 58, 58);
+}
+
+.company {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(48, 48, 48);
+}
+
+.nav-links a {
+  margin-left: 24px;
+  text-decoration: none;
+  color: rgb(82, 82, 82);
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: rgb(0, 0, 0);
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+input, select {
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+fieldset {
+    width: 500px;
+    border: 2px solid rgb(60, 58, 58);
+    padding: 16px;
+    margin: 16px;
+    border-radius: 8px;
+}
+
+legend {
+    padding: 10px;
+}
+
+.mee {
+    display: flex;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.pfp {
+    height: 200px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.bio {
+    align-content: flex-end;
+    justify-content: flex-start;
+}
+
+.about-nav a {
+    display: block;
+    margin: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
