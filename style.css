@@ -7,7 +7,8 @@
 body {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgb(231, 231, 231);
-  
+  background-image: url(image/dio.png);
+  background-size: 1400px;
 }
 
 
@@ -94,4 +95,22 @@ h3 {
 h2 {
     text-align: center;
     margin-top: 20px;
+}
+
+.jmap {
+    width: 500px;
+    height: 500px;
+}
+
+.jojo-map {
+    margin: 15px;
+   justify-content: center;
+    display: flex;
+}
+
+.jojo-text {
+ height: 600px;
+ background-image: url(image/blue_bg.png) ;
+  
+  color: black;
 }
