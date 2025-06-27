@@ -1,0 +1,47 @@
+<title>My Search Page</title>
+<link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-right">
+            <a href="#">Gmail</a>
+            <a href="#">Images</a>
+            <button class="open" onclick="document.getElementById('profile').style.display='block'"></button>
+        </nav>
+        <div id="profile">
+            <button class="close" onclick="document.getElementById('profile').style.display='none'">✕</button>
+            <figure class="avatar">
+      <img src="image/pfp.png" alt="Profile avatar" width="96px" height="96px" />
+            </figure>
+            <h2 class="greeting">Hi, Uzochukwu!</h2>
+            <p class="email">uzochukwuIwogbe@gmail.com</p>
+            <button class="primary">Manage your Google Account</button>
+
+            <button class="secondary">
+            <span>Show more accounts</span>
+            <span class="plus">﹢</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <div class="logo">NotGoogle</div>
+
+        <form class="search-form">
+            <input type="text" class="search box" placeholder="Search....">
+
+            <div class="buttons">
+                <button type="submit">Search</button>
+                <button type="button">I'm Feeling Lucky</button>
+            </div>
+        </form>
+    </main>
+    
+
+    <footer>
+        <p>Made with 💜 by NotGoogle</p>
+    </footer>
+</body>
+
+</html>
